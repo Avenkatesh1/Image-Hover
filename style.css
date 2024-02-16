@@ -5,6 +5,7 @@
 html, body {
     width: 100%;
     height: 100%;
+    background-color:blue;
   }
   
   .container {
@@ -19,30 +20,31 @@ html, body {
     font-family: "Oswald", sans-serif;
     font-size: 44px;
     text-transform: uppercase;
-    color: #424242;
+    color:#fff;
     text-align: center;
   }
   
   .Images-wrap {
     display: flex;
     flex-direction: row;
+    align-content: center;
     width: 100%;
-    height: 70vh;
+    height: 100vh;
   }
   
   .photo {
     flex: 1;
-    height: 100%;
+    height: 70%;
     background-position: center;
     background-size: cover;
     background-repeat: none;
     transition: flex 0.8s ease;
     filter: blur(1px);
-    border-radius: 25px;
+    border-radius: 15px;
   }
   
   .photo:hover {
-    flex: 7;
+    flex:15;
     filter: blur(0px);
   }
   
@@ -51,23 +53,46 @@ html, body {
 =========================*/
 
   .photo-1 {
-    background-image: url("https://wallpapercave.com/wp/wp12026024.jpg");
+    background-image: url("https://wallpaperset.com/w/full/0/3/3/163859.jpg");
   }
   
   .photo-2 {
-    background-image: url("https://w0.peakpx.com/wallpaper/347/833/HD-wallpaper-lord-hanuman-with-smoky-background-lord-hanuman-smoky-background-god-bajrangbali-jai-shree-ram.jpg");
+    background-image: url("https://wallpaperset.com/w/full/5/7/1/163862.jpg");
   }
   
   .photo-3 {
-    background-image: url("https://w0.peakpx.com/wallpaper/82/300/HD-wallpaper-lord-rama-black-background-lord-jai-shri-ram.jpg");
+    background-image: url("https://wallpaperset.com/w/full/f/a/b/163864.jpg");
   }
   
   .photo-4 {
-    background-image: url("https://pbs.twimg.com/media/F4GGkRBacAA9-3W.jpg");
+    background-image: url("https://wallpaperset.com/w/full/9/6/9/163884.jpg");
  
   }
   
   .photo-5 {
-    background-image: url("https://5.imimg.com/data5/SELLER/Default/2023/2/FX/AU/GX/183973801/jaishreeram-500x500.jpg");
+    background-image: url("https://wallpaperset.com/w/full/6/2/b/163924.jpg");
   }
-  
+
+  .photo-6 {
+    background-image: url("https://wallpaperset.com/w/full/3/2/c/163928.jpg");
+  }
+
+  .photo-7 {
+    background-image: url("https://wallpaperset.com/w/full/9/f/9/163938.jpg");
+  }
+
+  .photo-8 {
+    background-image: url("https://wallpaperset.com/w/full/5/9/7/163949.jpg");
+  }
+  .photo-9 {
+    background-image: url("https://wallpaperset.com/w/full/d/c/2/163953.jpg");
+  }
+  .photo-10 {
+    background-image: url("https://wallpaperset.com/w/full/c/b/6/163957.jpg");
+  }
+  .photo-11 {
+    background-image: url("https://wallpaperset.com/w/full/4/f/5/163962.jpg");
+  }
+  .photo-12 {
+    background-image: url("https://wallpaperset.com/w/full/2/e/7/163970.jpg");
+  }
